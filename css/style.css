@@ -1,0 +1,244 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+  margin: 0;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.section {
+  height: 100vh !important;
+  width: 100%;
+}
+
+.lang {
+  position: fixed;
+  right: 0;
+  padding: 0 5px;
+  color: #212529;
+}
+
+.lang a {
+  color: #212529;
+}
+
+.section-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-bottom: -100px;
+}
+
+@media all and (max-width: 1024px) {
+  .section-content {
+    flex-flow: column;
+  }
+}
+
+.arrow {
+  width: 100%;
+  height: 100px;
+}
+
+.arrow img {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 900px;
+  height: 900px;
+  margin: 30px;
+  display: flex;
+}
+
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.background {
+  background-color: #212529;
+  opacity: 0.8;
+  width: 900px;
+  height: 200px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#about .background {
+  display: block;
+}
+
+.background h1 {
+  margin: 0.67em;
+  text-align: center;
+}
+
+.background p {
+  margin: 1em;
+}
+
+.collapsible {
+  padding: 6px 0;
+  background-color: #eee;
+  color: #212529;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible p {
+  display: inline;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #eee;
+  color: #212529;
+  transition: max-height 0.7s ease-in-out;
+}
+
+.tags {
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media all and (max-width: 1024px) {
+  .collapsible {
+    display: none;
+  }
+
+  .text {
+    font-size: 36px;
+  }
+
+  .content {
+    font-size: 36px;
+  }
+
+  .image {
+    height: auto;
+  }
+
+  .section-content {
+    justify-content: flex-start;
+  }
+
+  .content {
+    max-height: fit-content;
+  }
+
+  .lang a {
+    font-size: 36px;
+  }
+
+  .lang {
+    font-size: 36px;
+  }
+
+  .background {
+    height: 600px;
+    font-size: 36px;
+  }
+
+  .background h1 {
+    margin: 0.55em;
+  }
+}
+
+#about {
+  background-color: #00becc;
+}
+
+#adv1 {
+  background-color: #04b3e0;
+}
+
+#adv2 {
+  background-color: #d46b79;
+}
+
+#adv3 {
+  background-color: #feda00;
+}
+
+#adv4 {
+  background-color: #fe1a6d;
+}
+
+#adv5 {
+  background-color: #ffe001;
+}
+
+#adv6 {
+  background-color: #ffd7df;
+}
+
+#adv7 {
+  background-color: #f16c6d;
+}
+
+#adv8 {
+  background-color: #ffcc01;
+}
+
+#adv9 {
+  background-color: #719dce;
+}
+
+#adv10 {
+  background-color: #ffcade;
+}
+
+#adv11 {
+  background-color: #ffe001;
+}
+
+#adv12 {
+  background-color: #00becc;
+}
+
+#adv13 {
+  background-color: #ea2763;
+}
+
+#adv14 {
+  background-color: #fdea2e;
+}
+
+#adv15 {
+  background-color: #da1f6c;
+}
+
+#adv16 {
+  background-color: #ffba00;
+}
+
+#adv17 {
+  background-color: #feda00;
+}
+
+#adv18 {
+  background-color: #00bcdd;
+}
